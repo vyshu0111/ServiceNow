@@ -113,30 +113,3 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
   g_form.setValue('u_student_name', admission.u_student_name);
 }
 
-✅ Final Output
-📈 Results
-Centralized records for students and admissions
-
-Automated workflows & validations
-
-Clean and logical UI for form submissions
-
-Realtime academic progress calculation
-
-Scalable and reusable architecture
-
-⭐ Advantages
-✅ Cloud-based and easily accessible
-
-✅ Reduced manual errors through automation
-
-✅ Role-based access and workflow control
-
-✅ Easily customizable for different institutions
-
-⚠️ Disadvantages
-⚠️ Requires prior ServiceNow knowledge
-
-⚠️ Customization can be complex without training
-
-⚠️ Licensing may be required for production use
