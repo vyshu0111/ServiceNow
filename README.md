@@ -113,8 +113,8 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
   g_form.setValue('u_student_name', admission.u_student_name);
 }
 
-Final Output
-Results
+✅ Final Output
+📈 Results
 Centralized records for students and admissions
 
 Automated workflows & validations
@@ -125,18 +125,18 @@ Realtime academic progress calculation
 
 Scalable and reusable architecture
 
- Advantages
-Cloud-based and easily accessible
+⭐ Advantages
+✅ Cloud-based and easily accessible
 
-Reduced manual errors through automation
+✅ Reduced manual errors through automation
 
-Role-based access and workflow control
+✅ Role-based access and workflow control
 
-Easily customizable for different institutions
+✅ Easily customizable for different institutions
 
- Disadvantages
-Requires prior ServiceNow knowledge
+⚠️ Disadvantages
+⚠️ Requires prior ServiceNow knowledge
 
-Customization can be complex without training
+⚠️ Customization can be complex without training
 
-Licensing may be required for production use
+⚠️ Licensing may be required for production use
