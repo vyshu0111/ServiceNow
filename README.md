@@ -1,6 +1,7 @@
-# 📚 Educational Organisation Management System using ServiceNow
 
-## 📌 Project Overview
+# Educational Organisation Management System using ServiceNow
+
+##  Project Overview
 
 The **Educational Management System (EMS)** is a streamlined and customized solution developed on the **ServiceNow platform** to enhance administrative operations within educational institutions. This system enables:
 
@@ -13,7 +14,7 @@ By leveraging the low-code/no-code features of ServiceNow, EMS provides institut
 
 ---
 
-## 🔧 Setting Up the ServiceNow Instance
+##  Setting Up the ServiceNow Instance
 
 1. **Sign Up for Developer Access**
    - Visit: [https://developer.servicenow.com](https://developer.servicenow.com)
@@ -29,17 +30,17 @@ By leveraging the low-code/no-code features of ServiceNow, EMS provides institut
 
 ---
 
-## 📦 Creating an Update Set
+##  Creating an Update Set
 
 - Navigate to **All → Local Update Sets**
 - Click **New**, name it `Educational Organisation`
 - Click **Submit** and then **Make Current**
 
-> 🔄 All configuration changes like table creation, form layout, and scripts are tracked in this update set.
+>  All configuration changes like table creation, form layout, and scripts are tracked in this update set.
 
 ---
 
-## 🧱 Table Design
+##  Table Design
 
 ### 1. **Salesforce Table** (Base Student Table)
 
@@ -72,7 +73,7 @@ By leveraging the low-code/no-code features of ServiceNow, EMS provides institut
 
 ---
 
-## 🧩 Configuring Forms and Layout
+##  Configuring Forms and Layout
 
 - Navigate to: **System Definition → Tables → [Your Table] → Configure → Form Design**
 - Arrange fields for logical data entry
@@ -80,7 +81,7 @@ By leveraging the low-code/no-code features of ServiceNow, EMS provides institut
 
 ---
 
-## 🔢 Number Maintenance (Admin Numbers)
+##  Number Maintenance (Admin Numbers)
 
 - Navigate to: **All → Number Maintenance**
 - Create a number format like: `ADM0001`
@@ -88,19 +89,19 @@ By leveraging the low-code/no-code features of ServiceNow, EMS provides institut
 
 ---
 
-## 🔄 Process Flow for Admissions
+##  Process Flow for Admissions
 
 - Navigate to: **Process Flow → New**
 - Created stages:
   - `New → InProgress → Joined → Rejected → Rejoined → Closed → Cancelled`
 
-> 💡 Helps visualize and control the admission lifecycle
+>  Helps visualize and control the admission lifecycle
 
 ---
 
-## 💡 Client Scripts for Automation
+##  Client Scripts for Automation
 
-### ✅ 1. **Auto-Populate Admission Fields**
+### 1. **Auto-Populate Admission Fields**
 
 Auto-fills fields like Grade and Student Name on selecting Admission Number.
 
@@ -111,3 +112,31 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
   g_form.setValue('u_grade', admission.u_grade);
   g_form.setValue('u_student_name', admission.u_student_name);
 }
+
+Final Output
+Results
+Centralized records for students and admissions
+
+Automated workflows & validations
+
+Clean and logical UI for form submissions
+
+Realtime academic progress calculation
+
+Scalable and reusable architecture
+
+ Advantages
+Cloud-based and easily accessible
+
+Reduced manual errors through automation
+
+Role-based access and workflow control
+
+Easily customizable for different institutions
+
+ Disadvantages
+Requires prior ServiceNow knowledge
+
+Customization can be complex without training
+
+Licensing may be required for production use
